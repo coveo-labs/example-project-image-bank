@@ -1,0 +1,58 @@
+[
+  {
+    "id": "qn35wnet6xwvl5byi2sqascom4",
+    "kind": "COMMON",
+    "fieldName": "permanentid",
+    "extractionMethod": "METADATA",
+    "content": "%[permanentid]"
+  },
+  {
+    "id": "qurd42oswgqho5poawhu752aba",
+    "kind": "COMMON",
+    "fieldName": "awsrekognition",
+    "extractionMethod": "METADATA",
+    "content": "%[awsrekognition]"
+  },
+  {
+    "id": "rbk6rgvxsz7mbbmlfs5umnsfv4",
+    "kind": "COMMON",
+    "fieldName": "foldfoldingfield",
+    "extractionMethod": "METADATA",
+    "content": "%[foldfoldingfield]"
+  },
+  {
+    "id": "rxozxfzooc7rgwuj577gvfkgdi",
+    "kind": "COMMON",
+    "fieldName": "parenturi",
+    "extractionMethod": "METADATA",
+    "content": "%[parenturi]"
+  },
+  {
+    "id": "tf7ybuuwxwtfh2ic2rgqxn2age",
+    "kind": "COMMON",
+    "fieldName": "parentconcepts",
+    "extractionMethod": "METADATA",
+    "content": "%[parentconcepts]"
+  },
+  {
+    "id": "wqhdgwndfgszxncep66m7wkpdq",
+    "kind": "COMMON",
+    "fieldName": "base64data",
+    "extractionMethod": "METADATA",
+    "content": "%[base64data]"
+  },
+  {
+    "id": "xlmndiki4cc6u6voryotuz2gtu",
+    "kind": "COMMON",
+    "fieldName": "foldchildfield",
+    "extractionMethod": "METADATA",
+    "content": "%[foldchildfield]"
+  },
+  {
+    "id": "xmtojh5slrmqdtu3vipzotsnue",
+    "kind": "COMMON",
+    "fieldName": "parenttitle",
+    "extractionMethod": "METADATA",
+    "content": "%[parenttitle]"
+  }
+]

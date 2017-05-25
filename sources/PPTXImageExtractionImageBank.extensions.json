@@ -1,0 +1,10 @@
+[
+  {
+    "extensionId": "IMAGE_TAGGING_USING_AWS_REKOGNITION_put_extension_id_here",
+    "parameters": {}
+  },
+  {
+    "extensionId": "RESIZE_IMAGE_put_extension_id_here",
+    "parameters": {}
+  }
+]

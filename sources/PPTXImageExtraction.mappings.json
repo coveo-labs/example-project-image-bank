@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "q3qeymgwgiyse2dt5jycqqkpie",
+    "kind": "COMMON",
+    "fieldName": "gdkind",
+    "extractionMethod": "METADATA",
+    "content": "%[kind]"
+  },
+  {
+    "id": "q7ry7auogxablyacif34t7kjbq",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagefocallength",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.focallength]"
+  },
+  {
+    "id": "qbe5nckqpwhkjouykfsvkskfwm",
+    "kind": "COMMON",
+    "fieldName": "gddocumentsource",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.document.source]"
+  },
+  {
+    "id": "qbs42bsaoxjv6z7zz3hczzcc2a",
+    "kind": "COMMON",
+    "fieldName": "gdcommentfiletitle",
+    "extractionMethod": "METADATA",
+    "content": "%[filetitle]"
+  },
+  {
+    "id": "qcpubcn56yfuepskgve7kzcjny",
+    "kind": "COMMON",
+    "fieldName": "fax",
+    "extractionMethod": "METADATA",
+    "content": "%[fax]"
+  },
+  {
+    "id": "qfqs4zr5togcwoovwh5ffzcls4",
+    "kind": "COMMON",
+    "fieldName": "lastname",
+    "extractionMethod": "METADATA",
+    "content": "%[lastname]"
+  },
+  {
+    "id": "qhpsm567vfcclflabdfdhmchce",
+    "kind": "COMMON",
+    "fieldName": "gduserquotausedtotal",
+    "extractionMethod": "METADATA",
+    "content": "%[quotabytesusedaggregate]"
+  },
+  {
+    "id": "qo2xvmgcdc4z2nxnpz6n532cfu",
+    "kind": "COMMON",
+    "fieldName": "gduserquotadrive",
+    "extractionMethod": "METADATA",
+    "content": "%[quotabytestotal]"
+  },
+  {
+    "id": "qolesd7tkai6lbs4nqzs7hcppu",
+    "kind": "COMMON",
+    "fieldName": "filename",
+    "extractionMethod": "METADATA",
+    "content": "%[filename]"
+  },
+  {
+    "id": "qtufi43r2636usyrjiqawscm2q",
+    "kind": "COMMON",
+    "fieldName": "gdfilewebviewlink",
+    "extractionMethod": "METADATA",
+    "content": "%[webviewlink]"
+  },
+  {
+    "id": "qu2lk3ftm2cnsndmzoundr2egm",
+    "kind": "COMMON",
+    "fieldName": "printableuri",
+    "extractionMethod": "METADATA",
+    "content": "%[printableuri]"
+  },
+  {
+    "id": "qudmpsppwcaca577alguomchl4",
+    "kind": "COMMON",
+    "fieldName": "sourcetype",
+    "extractionMethod": "METADATA",
+    "content": "%[sourcetype]"
+  },
+  {
+    "id": "quld2kxbe4qe5fwkubtuhccp5q",
+    "kind": "COMMON",
+    "fieldName": "gdcommentstatus",
+    "extractionMethod": "METADATA",
+    "content": "%[status]"
+  },
+  {
+    "id": "r2rb73ifudyhfi5fuzhnt5ccuu",
+    "kind": "COMMON",
+    "fieldName": "gdfileembedlink",
+    "extractionMethod": "METADATA",
+    "content": "%[embedlink]"
+  },
+  {
+    "id": "r36mhjbjym7s6kr6roowarcbj4",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageexposuretime",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.exposuretime]"
+  },
+  {
+    "id": "r4csgtaqoqpjdf2yhpezwuckye",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageisospeed",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.isospeed]"
+  },
+  {
+    "id": "r5yqixizbgcxelvzz7czqishvi",
+    "kind": "COMMON",
+    "fieldName": "gdfileid",
+    "extractionMethod": "METADATA",
+    "content": "%[id]"
+  },
+  {
+    "id": "r6kkmndg2ln4cbafmjuwkgcniq",
+    "kind": "COMMON",
+    "fieldName": "gdfilelastmodifyinguserdisplayname",
+    "extractionMethod": "METADATA",
+    "content": "%[lastmodifyinguser.displayname]"
+  },
+  {
+    "id": "r7xem3jgbl5z2oyrubcv3uchbe",
+    "kind": "COMMON",
+    "fieldName": "gdfilelastmodifyingusername",
+    "extractionMethod": "METADATA",
+    "content": "%[lastmodifyingusername]"
+  },
+  {
+    "id": "ra5hxhldz2wgzlsan3vtmzkmh4",
+    "kind": "COMMON",
+    "fieldName": "fileextension",
+    "extractionMethod": "METADATA",
+    "content": "%[fileextension]"
+  },
+  {
+    "id": "raorev56p3h5bgro5yyut72d6q",
+    "kind": "COMMON",
+    "fieldName": "gddisplayto",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.displayname.to]"
+  },
+  {
+    "id": "rbemb4am7jwk6s4xg3735g2oim",
+    "kind": "COMMON",
+    "fieldName": "authorloginname",
+    "extractionMethod": "METADATA",
+    "content": "%[authorloginname]"
+  },
+  {
+    "id": "rcfdcrad7amnrtj5to36keklle",
+    "kind": "COMMON",
+    "fieldName": "gdfilelastmodifyinguserpictureurl",
+    "extractionMethod": "METADATA",
+    "content": "%[lastmodifyinguser.picture.url]"
+  },
+  {
+    "id": "rfbpr7en46tw5jlyfybrh4sbvm",
+    "kind": "COMMON",
+    "fieldName": "foldingcollection",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo_foldingcollection]"
+  },
+  {
+    "id": "rgdcz7xohtyjhvjr55vvyskmoi",
+    "kind": "COMMON",
+    "fieldName": "gdcommentauthorname",
+    "extractionMethod": "METADATA",
+    "content": "%[author.displayname]"
+  },
+  {
+    "id": "rhnok4kxwy62rx4xnhdxfzsl2e",
+    "kind": "COMMON",
+    "fieldName": "gdmodifieddate",
+    "extractionMethod": "METADATA",
+    "content": "%[modifieddate]"
+  },
+  {
+    "id": "ritdgiildlvq62q7bdol6y2hme",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagerotation",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.rotation]"
+  },
+  {
+    "id": "rjaqubt6t3prmbalvsx2dp2pdm",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagesubjectdistance",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.subjectdistance]"
+  },
+  {
+    "id": "rjg2ybnuxb445x2lyq5u25cg3i",
+    "kind": "COMMON",
+    "fieldName": "site",
+    "extractionMethod": "METADATA",
+    "content": "%[site]"
+  },
+  {
+    "id": "rlfe7fpehs53ifpmqqlavxslfe",
+    "kind": "COMMON",
+    "fieldName": "gdetag",
+    "extractionMethod": "METADATA",
+    "content": "%[etag]"
+  },
+  {
+    "id": "rlkrg2py7y5qakiv6qtuhjkfau",
+    "kind": "COMMON",
+    "fieldName": "gdcommentanchor",
+    "extractionMethod": "METADATA",
+    "content": "%[anchor]"
+  },
+  {
+    "id": "rn5fxu2pjbqnln5lfjd3l6ccwy",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagelatitude",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.location.latitude]"
+  },
+  {
+    "id": "roqlzwbwuuhczhu6q2mlepka2y",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageheight",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.height]"
+  },
+  {
+    "id": "rqitfncpsrwzrmglkp2irkcj3m",
+    "kind": "COMMON",
+    "fieldName": "title",
+    "extractionMethod": "METADATA",
+    "content": "%[title:crawler]"
+  },
+  {
+    "id": "rvtnwzqjg257vwbdjbiy5tkin4",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinksvg",
+    "extractionMethod": "METADATA",
+    "content": "%[image/svg+xml]"
+  },
+  {
+    "id": "rxovmp4tblhludw2uok4cr2icy",
+    "kind": "COMMON",
+    "fieldName": "gdfoldingparent",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.folding.parent]"
+  },
+  {
+    "id": "ryooe5mwjypofsdqnux24g2eru",
+    "kind": "COMMON",
+    "fieldName": "filetype",
+    "extractionMethod": "METADATA",
+    "content": "%[filetype]"
+  },
+  {
+    "id": "s2dof2msnfketozadb3iie2kr4",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageexposurebias",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.exposurebias]"
+  },
+  {
+    "id": "sgutiq5c26upbepcvspitzcmwa",
+    "kind": "COMMON",
+    "fieldName": "gdcommenthtmlcontent",
+    "extractionMethod": "METADATA",
+    "content": "%[htmlcontent]"
+  },
+  {
+    "id": "siohpklnspan7uh3cme6prkhs4",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageflashused",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.flashused]"
+  },
+  {
+    "id": "sjmctdxynuozf3cetxdl3kkcwm",
+    "kind": "COMMON",
+    "fieldName": "worktitle",
+    "extractionMethod": "METADATA",
+    "content": "%[worktitle]"
+  },
+  {
+    "id": "smqymtwmy2ppnqlhzzhwofkjme",
+    "kind": "COMMON",
+    "fieldName": "bcc",
+    "extractionMethod": "METADATA",
+    "content": "%[bcc]"
+  },
+  {
+    "id": "snbtoqfkccwqxbdisqgl5zcgke",
+    "kind": "COMMON",
+    "fieldName": "gdowneremail",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.owner.email]"
+  },
+  {
+    "id": "snvbcxwiegqd36ljc3hswyklni",
+    "kind": "COMMON",
+    "fieldName": "gdreplyid",
+    "extractionMethod": "METADATA",
+    "content": "%[replyid]"
+  },
+  {
+    "id": "srujurpij5tx25a3pqlxxbkmee",
+    "kind": "COMMON",
+    "fieldName": "permanentid",
+    "extractionMethod": "METADATA",
+    "content": "%[permanentid]"
+  },
+  {
+    "id": "sshgmeiwdmwd2k6pmaptss2b6q",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagemeteringmode",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.meteringmode]"
+  },
+  {
+    "id": "sujzuydmkbdt6fm6isspma2a3e",
+    "kind": "COMMON",
+    "fieldName": "gdfoldingcollection",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.folding.collection]"
+  },
+  {
+    "id": "suoynmuuq24rbliiiuc23skdra",
+    "kind": "COMMON",
+    "fieldName": "conversationreferenceid",
+    "extractionMethod": "METADATA",
+    "content": "%[conversationreferenceid]"
+  },
+  {
+    "id": "susq3wk65f3ny4evbefxvgkg5y",
+    "kind": "COMMON",
+    "fieldName": "mobileuri",
+    "extractionMethod": "METADATA",
+    "content": "%[mobileuri]"
+  },
+  {
+    "id": "swc2rfvabeqwjndfgjj5bscjxi",
+    "kind": "COMMON",
+    "fieldName": "gdcommentcontent",
+    "extractionMethod": "METADATA",
+    "content": "%[content]"
+  },
+  {
+    "id": "t2t6b5dy5aromdoyqe5ga5kp2a",
+    "kind": "COMMON",
+    "fieldName": "location",
+    "extractionMethod": "METADATA",
+    "content": "%[location]"
+  },
+  {
+    "id": "t332w6gnkmfc4v5gvonoge2j5y",
+    "kind": "COMMON",
+    "fieldName": "gdfilethumbnaillink",
+    "extractionMethod": "METADATA",
+    "content": "%[thumbnaillink]"
+  },
+  {
+    "id": "t4grnor7l2ymibfjfzvdqxciuu",
+    "kind": "COMMON",
+    "fieldName": "datebucket",
+    "extractionMethod": "METADATA",
+    "content": "%[datebucket]"
+  },
+  {
+    "id": "t4qprxzx5nrlvzqib2t4l62jfe",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkhtml",
+    "extractionMethod": "METADATA",
+    "content": "%[exportlinks.text/html]"
+  },
+  {
+    "id": "t7cpdim7rlrawj5dzr3cll2bzi",
+    "kind": "COMMON",
+    "fieldName": "gduserdisplayname",
+    "extractionMethod": "METADATA",
+    "content": "%[user.displayname]"
+  },
+  {
+    "id": "tajbyvl66yxrnxmd23ehc22hja",
+    "kind": "COMMON",
+    "fieldName": "date",
+    "extractionMethod": "METADATA",
+    "content": "%[date]"
+  },
+  {
+    "id": "tcpbxu6vlayiogc2rvethvsj3m",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagealtitude",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.location.altitude]"
+  },
+  {
+    "id": "tdurxpnahwlqbrmmtannimcdxy",
+    "kind": "COMMON",
+    "fieldName": "gdfilelink",
+    "extractionMethod": "METADATA",
+    "content": "%[alternatelink]"
+  },
+  {
+    "id": "tejztixgdzonzawgo5vvllsihu",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkjpg",
+    "extractionMethod": "METADATA",
+    "content": "%[image/jpeg]"
+  },
+  {
+    "id": "teu4fd5mxh6dtzvgnrtmzucida",
+    "kind": "COMMON",
+    "fieldName": "gdfileshared",
+    "extractionMethod": "METADATA",
+    "content": "%[shared]"
+  },
+  {
+    "id": "tfap42h3eqsh33a6i3v2qcchmm",
+    "kind": "COMMON",
+    "fieldName": "gdemailfrom",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.displayemail.from]"
+  },
+  {
+    "id": "tfhsgsdex2ch742ahwwrq6cmam",
+    "kind": "COMMON",
+    "fieldName": "gdfileiconlink",
+    "extractionMethod": "METADATA",
+    "content": "%[iconlink]"
+  },
+  {
+    "id": "tfikxizs2s6t5bg52qlfjucfha",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagelens",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.lens]"
+  },
+  {
+    "id": "tfygg2e4mn5wnj3tu6eol52p3u",
+    "kind": "COMMON",
+    "fieldName": "mobilephone",
+    "extractionMethod": "METADATA",
+    "content": "%[mobilephone]"
+  },
+  {
+    "id": "tjd7sakluhx63ltl2lqguwsnxy",
+    "kind": "COMMON",
+    "fieldName": "relatedlink",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo_externalurl]"
+  },
+  {
+    "id": "tmsnycdwdgbugy3bdycy66cauy",
+    "kind": "COMMON",
+    "fieldName": "gdfilequotaused",
+    "extractionMethod": "METADATA",
+    "content": "%[quotabytesused]"
+  },
+  {
+    "id": "tn7dabbiqxxnwkjbbevnj7kdym",
+    "kind": "COMMON",
+    "fieldName": "gdcommentdeleted",
+    "extractionMethod": "METADATA",
+    "content": "%[deleted]"
+  },
+  {
+    "id": "tpr2tng7hsedi55js2cffk2pfu",
+    "kind": "COMMON",
+    "fieldName": "gdreplyverb",
+    "extractionMethod": "METADATA",
+    "content": "%[verb]"
+  },
+  {
+    "id": "tq7zz66dem4kpulnrbwimb2opq",
+    "kind": "COMMON",
+    "fieldName": "foldingchild",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo_foldingchild]"
+  },
+  {
+    "id": "tqecu4bkyrzowc7v5tvu3bcfmu",
+    "kind": "COMMON",
+    "fieldName": "company",
+    "extractionMethod": "METADATA",
+    "content": "%[o]"
+  },
+  {
+    "id": "tqg52bdbpsbkd3vlfsvwmvcbhy",
+    "kind": "COMMON",
+    "fieldName": "language",
+    "extractionMethod": "METADATA",
+    "content": "%[language]"
+  },
+  {
+    "id": "ttd54eaqxaz3g2jy2kppavcfza",
+    "kind": "COMMON",
+    "fieldName": "year",
+    "extractionMethod": "METADATA",
+    "content": "%[year]"
+  },
+  {
+    "id": "ttj6m6y3vikdxxsfb3lwy72iie",
+    "kind": "COMMON",
+    "fieldName": "gdfilewebcontentlink",
+    "extractionMethod": "METADATA",
+    "content": "%[webcontentlink]"
+  },
+  {
+    "id": "ttlp2lyqozngef4g3b56dvcd5u",
+    "kind": "COMMON",
+    "fieldName": "gdusername",
+    "extractionMethod": "METADATA",
+    "content": "%[name]"
+  },
+  {
+    "id": "ttqaun456wmnrpwahwfhld2niu",
+    "kind": "COMMON",
+    "fieldName": "mobilephone",
+    "extractionMethod": "METADATA",
+    "content": "%[mobile]"
+  },
+  {
+    "id": "tuywvheghf243npq44v6ttceya",
+    "kind": "COMMON",
+    "fieldName": "cc",
+    "extractionMethod": "METADATA",
+    "content": "%[cc]"
+  },
+  {
+    "id": "txf6mhybt4f7mlsa6lmdcrkhuq",
+    "kind": "COMMON",
+    "fieldName": "gduserquotauseddrive",
+    "extractionMethod": "METADATA",
+    "content": "%[quotabytesused]"
+  },
+  {
+    "id": "tzorvnp3dn7jcerflnrmxrcjyy",
+    "kind": "COMMON",
+    "fieldName": "gdemailto",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.displayemail.to]"
+  },
+  {
+    "id": "u3uyk3rild32zvmwbykhukclkq",
+    "kind": "COMMON",
+    "fieldName": "workphone",
+    "extractionMethod": "METADATA",
+    "content": "%[workphone]"
+  },
+  {
+    "id": "u5x5e2xit3mt4kg5s5hzv5sfai",
+    "kind": "COMMON",
+    "fieldName": "gdfileheadrevisionid",
+    "extractionMethod": "METADATA",
+    "content": "%[headrevisionid]"
+  },
+  {
+    "id": "u7bu5wjpns2g2boah3duc32jfy",
+    "kind": "COMMON",
+    "fieldName": "mobilephone",
+    "extractionMethod": "METADATA",
+    "content": "%[cellphone]"
+  },
+  {
+    "id": "uanlqmyjbt2riedqdxptdscoiy",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagesensor",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.sensor]"
+  },
+  {
+    "id": "ub3bdklm3rstog4xlt7gzy2c44",
+    "kind": "COMMON",
+    "fieldName": "parents",
+    "extractionMethod": "METADATA",
+    "content": "%[parents]"
+  },
+  {
+    "id": "ubvppbo7llxd2zrg3ofvlkkf6y",
+    "kind": "COMMON",
+    "fieldName": "connectortype",
+    "extractionMethod": "METADATA",
+    "content": "%[connectortype]"
+  },
+  {
+    "id": "uczu3l3rw22lgtjxqa7x2osjdi",
+    "kind": "COMMON",
+    "fieldName": "subject",
+    "extractionMethod": "METADATA",
+    "content": "%[subject]"
+  },
+  {
+    "id": "uevemx67gdsi5pkiwlhmphsieu",
+    "kind": "COMMON",
+    "fieldName": "gdcommentcontexttype",
+    "extractionMethod": "METADATA",
+    "content": "%[context.type]"
+  },
+  {
+    "id": "ufpbia4pggwdem5xltkomgsmta",
+    "kind": "COMMON",
+    "fieldName": "gdlink",
+    "extractionMethod": "METADATA",
+    "content": "%[selflink]"
+  },
+  {
+    "id": "ufwqcbundcfjfcvrjw3vddsmk4",
+    "kind": "COMMON",
+    "fieldName": "foldingparent",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo_foldingparent]"
+  },
+  {
+    "id": "ukg56tgarxbua3xvtentnhsmm4",
+    "kind": "COMMON",
+    "fieldName": "documenttype",
+    "extractionMethod": "METADATA",
+    "content": "%[documenttype]"
+  },
+  {
+    "id": "ulwhokgj4rt72ueowkayl3klra",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkrtf",
+    "extractionMethod": "METADATA",
+    "content": "%[exportlinks.application/rtf]"
+  },
+  {
+    "id": "umra473ppw62dvp7rtxiod2go4",
+    "kind": "COMMON",
+    "fieldName": "gdfilesize",
+    "extractionMethod": "METADATA",
+    "content": "%[filesize]"
+  },
+  {
+    "id": "unhwncsapplour7b4ex7qe2kwu",
+    "kind": "COMMON",
+    "fieldName": "foldfoldingfield",
+    "extractionMethod": "METADATA",
+    "content": "%[foldfoldingfield]"
+  },
+  {
+    "id": "upbd5w2xtzs5ldjg5wad4icd4a",
+    "kind": "COMMON",
+    "fieldName": "company",
+    "extractionMethod": "METADATA",
+    "content": "%[company]"
+  },
+  {
+    "id": "uqm6rqgpwhvq6s5rzvg7qekjtq",
+    "kind": "COMMON",
+    "fieldName": "displayto",
+    "extractionMethod": "METADATA",
+    "content": "%[pr_display_to]"
+  },
+  {
+    "id": "us2mjpushnbepyap34dd6ckg4a",
+    "kind": "COMMON",
+    "fieldName": "workemail",
+    "extractionMethod": "METADATA",
+    "content": "%[workemail]"
+  },
+  {
+    "id": "uwftdhkh2xjks4gpazu4rbsb3a",
+    "kind": "COMMON",
+    "fieldName": "gdfiledescription",
+    "extractionMethod": "METADATA",
+    "content": "%[description]"
+  },
+  {
+    "id": "uzbhog342lg7yysrwyilux2ivi",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagecolorspace",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.colorspace]"
+  },
+  {
+    "id": "v37ntublt3gye2t7qolqetcb6u",
+    "kind": "COMMON",
+    "fieldName": "fullname",
+    "extractionMethod": "METADATA",
+    "content": "%[fullname]"
+  },
+  {
+    "id": "v7d444b5bqp36d5htehnsv2buu",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkpng",
+    "extractionMethod": "METADATA",
+    "content": "%[image/png]"
+  },
+  {
+    "id": "v7kr4h4insscywcnika2iosnoi",
+    "kind": "COMMON",
+    "fieldName": "gdfilemimetype",
+    "extractionMethod": "METADATA",
+    "content": "%[mimetype]"
+  },
+  {
+    "id": "vairi7xbojlps3vgroksdcsnpq",
+    "kind": "COMMON",
+    "fieldName": "gduserpictureurl",
+    "extractionMethod": "METADATA",
+    "content": "%[user.picture.url]"
+  },
+  {
+    "id": "varbqmt65ufogcoot2qq3ukkba",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagelongitude",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.location.longitude]"
+  },
+  {
+    "id": "vcclnbxdmiizcknwm2jygwkbbe",
+    "kind": "COMMON",
+    "fieldName": "gdfilecanshare",
+    "extractionMethod": "METADATA",
+    "content": "%[writerscanshare]"
+  },
+  {
+    "id": "vcyvapt3k5o5rk2f6uokji2g3y",
+    "kind": "COMMON",
+    "fieldName": "gdfileextension",
+    "extractionMethod": "METADATA",
+    "content": "%[fileextension]"
+  },
+  {
+    "id": "ve2nxdrqf6o6himja4nskysiga",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkword",
+    "extractionMethod": "METADATA",
+    "content": "%[exportlinks.application/vnd.openxmlformats-officedocument.wordprocessingml.document]"
+  },
+  {
+    "id": "vep5rvf65dwqdbjls6uqhncfhi",
+    "kind": "COMMON",
+    "fieldName": "folders",
+    "extractionMethod": "METADATA",
+    "content": "%[folders]"
+  },
+  {
+    "id": "vg3775mijwqifreo5iyj5rkkia",
+    "kind": "COMMON",
+    "fieldName": "gdfiletitle",
+    "extractionMethod": "METADATA",
+    "content": "%[title]"
+  },
+  {
+    "id": "vmoxhfx3spsitd326ckfuhslwu",
+    "kind": "COMMON",
+    "fieldName": "office",
+    "extractionMethod": "METADATA",
+    "content": "%[office]"
+  },
+  {
+    "id": "vmul73blkua5jlncoa3bm3kk4q",
+    "kind": "COMMON",
+    "fieldName": "middlename",
+    "extractionMethod": "METADATA",
+    "content": "%[middlename]"
+  },
+  {
+    "id": "vmupdaalf3ghwtb2mrwdarcehu",
+    "kind": "COMMON",
+    "fieldName": "gdcommentauthorpictureurl",
+    "extractionMethod": "METADATA",
+    "content": "%[author.picture.url]"
+  },
+  {
+    "id": "vn6d4ycazbc4guwkxawxy7cpom",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagecameramodel",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.cameramodel]"
+  },
+  {
+    "id": "vnsoglirjqeyvow3j3cbjukmo4",
+    "kind": "COMMON",
+    "fieldName": "size",
+    "extractionMethod": "METADATA",
+    "content": "%[size]"
+  },
+  {
+    "id": "vwtb236h2ji2jp4npsiy3ukpju",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagewidth",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.width]"
+  },
+  {
+    "id": "w2a6prpl5hrjp3zcyxk72wko7e",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagedate",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.date]"
+  },
+  {
+    "id": "w33nszrjdi2uq65dk2svprke54",
+    "kind": "COMMON",
+    "fieldName": "gdfiledefaultopenwithlink",
+    "extractionMethod": "METADATA",
+    "content": "%[defaultopenwithlink]"
+  },
+  {
+    "id": "w5fmszdwjhb7637vwubhxksj5i",
+    "kind": "COMMON",
+    "fieldName": "author",
+    "extractionMethod": "METADATA",
+    "content": "%[author:crawler]"
+  },
+  {
+    "id": "w7oevl46dplzagkbaqvs3cckqu",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkplain",
+    "extractionMethod": "METADATA",
+    "content": "%[exportlinks.text/plain]"
+  },
+  {
+    "id": "wbb5jmq4b6sv7tdvjmpxihchza",
+    "kind": "COMMON",
+    "fieldName": "gdfilerestricted",
+    "extractionMethod": "METADATA",
+    "content": "%[labels.restricted]"
+  },
+  {
+    "id": "wexy4vnrgsa5t5smytdrercmly",
+    "kind": "COMMON",
+    "fieldName": "manager",
+    "extractionMethod": "METADATA",
+    "content": "%[manager]"
+  },
+  {
+    "id": "whgovotmgfjbdm7fcdnjbc2dai",
+    "kind": "COMMON",
+    "fieldName": "month",
+    "extractionMethod": "METADATA",
+    "content": "%[month]"
+  },
+  {
+    "id": "wmhnbwpacsjssuvpif6zde2ale",
+    "kind": "COMMON",
+    "fieldName": "gdfilechecksum",
+    "extractionMethod": "METADATA",
+    "content": "%[md5checksum]"
+  },
+  {
+    "id": "wnj42y74gne5v2kls53r7h2gf4",
+    "kind": "COMMON",
+    "fieldName": "gdownerdisplayname",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.owner.displayname]"
+  },
+  {
+    "id": "wnoepaoo3ghkmbt2gq7plm2chq",
+    "kind": "COMMON",
+    "fieldName": "gdcommentcontextvalue",
+    "extractionMethod": "METADATA",
+    "content": "%[context.value]"
+  },
+  {
+    "id": "wsqozy2zl2lfhdio2souzocdoy",
+    "kind": "COMMON",
+    "fieldName": "to",
+    "extractionMethod": "METADATA",
+    "content": "%[to]"
+  },
+  {
+    "id": "wu2xosj5324ruvxsrl344zkkri",
+    "kind": "COMMON",
+    "fieldName": "from",
+    "extractionMethod": "METADATA",
+    "content": "%[from]"
+  },
+  {
+    "id": "wwvaudab2khx2l6y7hny3ecf3y",
+    "kind": "COMMON",
+    "fieldName": "gddisplayfrom",
+    "extractionMethod": "METADATA",
+    "content": "%[coveo.displayname.from]"
+  },
+  {
+    "id": "wwz6lrrsbzdhzrvovk7u53civy",
+    "kind": "COMMON",
+    "fieldName": "gduserquotausedtrash",
+    "extractionMethod": "METADATA",
+    "content": "%[quotabytesusedintrash]"
+  },
+  {
+    "id": "wynbuc4eos5lqxkq5e5l542lgy",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkopenofficedoc",
+    "extractionMethod": "METADATA",
+    "content": "%[exportlinks.application/vnd.oasis.opendocument.text]"
+  },
+  {
+    "id": "x4xev4czo5gy62v46pbcx5sh5y",
+    "kind": "COMMON",
+    "fieldName": "foldparentfield",
+    "extractionMethod": "METADATA",
+    "content": "%[foldparentfield]"
+  },
+  {
+    "id": "x5vvl2ikc3h6o4ypnlsqvxcdie",
+    "kind": "COMMON",
+    "fieldName": "gdcommentfileid",
+    "extractionMethod": "METADATA",
+    "content": "%[fileid]"
+  },
+  {
+    "id": "xaqmvzcec42k35unhwmzagcjie",
+    "kind": "COMMON",
+    "fieldName": "gdcommentid",
+    "extractionMethod": "METADATA",
+    "content": "%[commentid]"
+  },
+  {
+    "id": "xbz7jawxkeswh25ezuscm4sfdy",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagecameramake",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.cameramake]"
+  },
+  {
+    "id": "xfiezlswz6leyodoesmxgvcpme",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageaperture",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.aperture]"
+  },
+  {
+    "id": "xicd6cv5ymv7mzn3uiiop5kgji",
+    "kind": "COMMON",
+    "fieldName": "homephone",
+    "extractionMethod": "METADATA",
+    "content": "%[homephone]"
+  },
+  {
+    "id": "xnkoqrmcrwjstj4kqm3iursb64",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkpdf",
+    "extractionMethod": "METADATA",
+    "content": "%[exportlinks.application/pdf]"
+  },
+  {
+    "id": "xqkrkoayg3xaikuajctpqespgi",
+    "kind": "COMMON",
+    "fieldName": "gdfileoriginalname",
+    "extractionMethod": "METADATA",
+    "content": "%[originalfilename]"
+  },
+  {
+    "id": "xrecevno3iacgo4x7jovzw2hpu",
+    "kind": "COMMON",
+    "fieldName": "gdcreateddate",
+    "extractionMethod": "METADATA",
+    "content": "%[createddate]"
+  },
+  {
+    "id": "xrv7cueqfpetemgef2jcd6cm4e",
+    "kind": "COMMON",
+    "fieldName": "gdfilelinkexcel",
+    "extractionMethod": "METADATA",
+    "content": "%[application/vnd.openxmlformats-officedocument.spreadsheetml.sheet]"
+  },
+  {
+    "id": "xuotu4bqdze7gzhm2yd4vwsdh4",
+    "kind": "COMMON",
+    "fieldName": "firstname",
+    "extractionMethod": "METADATA",
+    "content": "%[firstname]"
+  },
+  {
+    "id": "xvho3j5qugsvveoywfeafs2ly4",
+    "kind": "COMMON",
+    "fieldName": "gdfileimageexposuremode",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.exposuremode]"
+  },
+  {
+    "id": "xwbxecm7x6hslwwzhjriw4cj7m",
+    "kind": "COMMON",
+    "fieldName": "clickableuri",
+    "extractionMethod": "METADATA",
+    "content": "%[clickableuri]"
+  },
+  {
+    "id": "xyiymtvkch46tl7mtfvm3k2bmu",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagewhitebalance",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.whitebalance]"
+  },
+  {
+    "id": "xyydmb3k5khq6tzge2vtilceci",
+    "kind": "COMMON",
+    "fieldName": "gdfileimagemaxapterturevalue",
+    "extractionMethod": "METADATA",
+    "content": "%[imagemediametadata.maxaperturevalue]"
+  }
+]
