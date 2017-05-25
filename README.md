@@ -66,5 +66,3 @@ This project do not require to build. However, you will need to integrate UI com
 - Gauthier Robe (https://github.com/gforce81)
 - Jérôme Devost (https://github.com/jdevost)
 - Jean-François Cloutier (https://github.com/ancientwinds)
- 
-
