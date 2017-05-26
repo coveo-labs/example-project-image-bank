@@ -1,0 +1,17 @@
+[
+  {
+    "condition": "%[gdkind]=='drive#about'",
+    "extensionId": "REJECT_DOCUMENT_put_extension_id_here",
+    "parameters": {}
+  },
+  {
+    "condition": "%[gdfileextension]=='.oleFile'",
+    "extensionId": "REJECT_DOCUMENT_put_extension_id_here",
+    "parameters": {}
+  },
+  {
+    "condition": "%[gdfileextension]=='pptx'",
+    "extensionId": "PPTX_IMAGE_EXTRACTOR_put_extension_id_here",
+    "parameters": {}
+  }
+]

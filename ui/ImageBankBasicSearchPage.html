@@ -1,0 +1,139 @@
+<div id="search" class="CoveoSearchInterface" data-enable-history="true" data-design="new">
+  <div class="CoveoAnalytics">
+  </div>
+  <div class="coveo-tab-section">
+    <a class="CoveoTab" data-id="All" data-caption="PowerPoint Image Bank" data-expression="@source==(&quot;Test PPTX Image Extraction Image Bank&quot;)">
+    </a>
+  </div>
+  <div class="coveo-search-section">
+    <div class="CoveoSettings" data-include-in-menu=".CoveoShareQuery,.CoveoPreferencesPanel">
+    </div>
+    <div class="CoveoSearchbox" data-enable-omnibox="true">
+    </div>
+  </div>
+  <div class="coveo-main-section">
+    <div class="coveo-facet-column">
+      <div class="CoveoFacet" data-title="Type" data-field="@objecttype" data-tab="All">
+      </div>
+      <div class="CoveoFacet" data-title="Image Description Labels" data-field="@awsrekognition" data-is-multi-value-field="true">
+      </div>
+      <div class="CoveoFacet" data-title="Presentation Concepts" data-field="@parentconcepts" data-is-multi-value-field="true">
+      </div>
+      <div class="CoveoFacet" data-title="Parent Presentation" data-field="@parenttitle" data-is-multi-value-field="false">
+      </div>
+    </div>
+    <div class="coveo-results-column">
+      <div class="CoveoShareQuery">
+      </div>
+      <div class="CoveoPreferencesPanel">
+        <div class="CoveoResultsPreferences">
+        </div>
+        <div class="CoveoResultsFiltersPreferences">
+        </div>
+      </div>
+      <div class="CoveoTriggers">
+      </div>
+      <div class="CoveoBreadcrumb">
+      </div>
+      <div class="CoveoSearchAlerts">
+      </div>
+      <div class="coveo-results-header">
+        <div class="coveo-summary-section">
+          <span class="CoveoQuerySummary">
+          </span>
+          <span class="CoveoQueryDuration">
+          </span>
+        </div>
+        <div class="coveo-sort-section">
+          <span class="CoveoSort" data-sort-criteria="relevancy" data-caption="Relevance">
+          </span>
+          <span class="CoveoSort" data-sort-criteria="date descending,date ascending" data-caption="Date">
+          </span>
+        </div>
+      </div>
+      <div class="CoveoHiddenQuery">
+      </div>
+      <div class="CoveoDidYouMean">
+      </div>
+      <div class="CoveoErrorReport" data-pop-up="false">
+      </div>
+      <div class="CoveoResultList" data-wait-animation="fade" data-auto-select-fields-to-include="false">
+        <script id="Default" class="result-template" type="text/underscore">
+            <div class="coveo-result-frame">
+               <div class="coveo-result-row">
+                  <div class="coveo-result-cell" style="width:85px;text-align:center;padding-top:7px;">
+                     <span onclick="javascript:document.getElementById('lightbox').style.display='block';document.getElementById('fullsizeimage').src=document.getElementById('<%= raw.rowid %>').src;"><img class="CoveoIcon" id="<%= raw.rowid %>" src="data:image;base64, <%= raw.base64data %>" /></span>
+          </span>
+          </div>
+                  <div class="coveo-result-cell" style="padding-left:15px;">
+                     <div class="coveo-result-row">
+                        <div class="coveo-result-cell" style="font-size:18px;">
+                           Extracted from <a target="_blank" href="<%= raw.parenturi %>"><%= raw.parenttitle %></a>
+          </a>
+          </div>
+                        <div class="coveo-result-cell" style="width:120px; text-align:right; font-size:12px">
+                           <span class="CoveoFieldValue" data-field="@date" data-helper="date">
+          </span>
+          </div>
+          </div>
+                     <div class="coveo-result-row">
+                        <div class="coveo-result-cell">
+                           <span class="field-title">Image Description Labels</span>
+                           <span class="CoveoFieldValue" data-field="@awsrekognition" data-split-values="true">
+          </span>
+          </div>
+          </div>
+                     <div class="coveo-result-row">
+                        <div class="coveo-result-cell">
+                           <span class="field-title">Presentation Concepts</span>
+                           <span class="CoveoFieldValue" data-field="@parentconcepts" data-split-values="true">
+          </span>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        </script>
+      </div>
+      <div class="CoveoPager">
+      </div>
+      <div class="CoveoLogo">
+      </div>
+    </div>
+  </div>
+</div>
+<div onclick="javascript:this.style.display='none';" class="lightbox" id="lightbox">
+  <img id="fullsizeimage" src="" />
+</div>
+<style type="text/css">
+  /** LIGHTBOX MARKUP **/
+  .lightbox {
+    /** Default lightbox to hidden */
+    display: none;
+    /** Position and style */
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+  }
+  .lightbox img {
+    /** Pad the lightbox image */
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 5%;
+  }
+  .lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+    /** Unhide lightbox **/
+    display: block;
+  }
+  .field-title {
+    font-weight: bold;
+    display: block;
+  }
+</style>
