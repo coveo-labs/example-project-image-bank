@@ -2,7 +2,7 @@
 This project is an example regarding the format of publication in coveo-labs. It demonstrates how to extract images from powerpoint documents located in a google drive repository, then build an image bank with Rekognition and display it in an hosted search page on Coveo's Cloud Platform.
 
 ## Description
-This repository shares examples of Coveo indexing pipeline extensions scripts, custom UI component, PushAPI scripts, etc. The entire code for a particular example resides in its project. When adding a project to coveo-lab, please use the same structure and guidelines as provided here.
+This repository shares examples of Coveo indexing pipeline extensions scripts, custom UI component, PushAPI scripts, etc. The entire code for a particular example resides in its project. When adding a project to coveo-labs, please use the same structure and guidelines as provided here.
 
 ## Available documentation
 The code for the projects uses APIs, SDKs, and code from the Coveo Platform. You can use the following resources for more information and get started:
